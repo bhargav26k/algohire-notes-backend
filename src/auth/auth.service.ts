@@ -74,4 +74,11 @@ const user = this.userRepo.create({
   }
 }
 
+  /** Returns true if username is already taken */
+  async isUsernameTaken(username: string): Promise<boolean> {
+    const count = await this.userRepo.count({ where: { username } });
+    return count > 0;
+  }
+
+
 }

@@ -2,6 +2,9 @@
 
 A NestJS API for a collaborative candidate-notes app with JWT auth, TypeORM/MySQL (Railway), Socket.io real-time messaging, `@username` tagging, notifications, and document upload.
 
+## 🔗 Live Deployment (Frontend):
+https://algohire-notes-frontend.vercel.app/login
+
 ## 🔑 Features
 
 - **Authentication**: Signup, Login, JWT + Refresh Token  
